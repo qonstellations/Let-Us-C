@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int FTC() {
+int main() {
 
     float f, c;
 
     printf("\nEnter temperature in fahrenheit : ");
-    scanf_s("%f", &f);
+    scanf("%f", &f);
 
     c = ((f - 32) * 5) / 9;
 

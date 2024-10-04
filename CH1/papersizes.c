@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int papersizes() {
+int main() {
 
     int horiz = 1189, vert = 841, temphoriz;
 
